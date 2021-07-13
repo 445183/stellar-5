@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "stellar",
+    "slug": "stellar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/main-icon.png",
+    "splash": {
+      "image": "./assets/main-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/main-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.akk47.stellar"
+    },
+    "web": {
+      "favicon": "./assets/main-icon.png"
+    }
+  }
+}
